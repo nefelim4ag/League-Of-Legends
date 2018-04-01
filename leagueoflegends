@@ -69,8 +69,8 @@ source "$HOME/.config/leagueoflegends.conf"
 
 [ -z "$WINEARCH" ]         && WINEARCH=win64
 [ -z "$BASE_DIR" ]         && BASE_DIR="$HOME/.local/share/leagueoflegends/"
-[ -z "$WINEPREFIX" ]       && WINEPREFIX="$BASE_DIR/WINE.$WINEARCH/"
-[ -z "$INSTALL_PATH" ]     && INSTALL_PATH="$BASE_DIR/LOL/"
+[ -z "$WINEPREFIX" ]       && WINEPREFIX="${BASE_DIR}WINE.$WINEARCH/"
+[ -z "$INSTALL_PATH" ]     && INSTALL_PATH="${BASE_DIR}LOL/"
 
 {
     INFO "Check: Base dir $BASE_DIR"
