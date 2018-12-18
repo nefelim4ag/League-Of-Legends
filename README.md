@@ -80,7 +80,7 @@ $ leagueoflegends make_wineprefix
 $ mv <Directory with LeagueClient.exe> ~/.local/share/leagueoflegends/LOL/
 ```
 
-### Advance wine configurations
+### Advanced wine configurations
 
 If you need to run winecfg, wineserver, or winetricks toward the wine prefix,
 you can prefix the command with this script, which will prepare and export the
